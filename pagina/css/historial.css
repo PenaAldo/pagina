@@ -1,0 +1,38 @@
+* {
+box-sizing: border-box;
+}
+
+.body {
+font-family: Times New Roman;
+padding: 10px;
+background: #f1f1f1;
+}
+
+.header{
+padding: 20px;
+text-align: center;
+background: grey;
+font-size: 18px;
+}
+
+/* estilo en vista */
+.links {
+overflow: hidden;
+background-color: #333;
+}
+
+/* estilo del los vinculos */
+.links a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* color al posicionar el cursor */
+.links a:hover {
+background-color: #ddd;
+color: black;
+}
